@@ -1,0 +1,724 @@
+1540675165069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pal\\AppData\\Local\\Temp\\rust_mozprofile.uNmwfOsztkKt"
+1540675166100	addons.manager	DEBUG	Application has been upgraded
+1540675166169	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1540675166171	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1540675166183	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1540675166185	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1540675166185	addons.manager	DEBUG	Starting provider: XPIProvider
+1540675166185	addons.xpi	DEBUG	startup
+1540675166186	addons.xpi	INFO	SystemAddonLocation directory is missing
+1540675166193	addons.xpi	INFO	Removing all system add-on upgrades.
+1540675166194	addons.xpi	DEBUG	checkForChanges
+1540675166194	addons.xpi	DEBUG	Loaded add-on state: ${}
+1540675166194	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1540675166195	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1540675166195	addons.xpi	DEBUG	New add-on formautofill@mozilla.org in app-system-defaults
+1540675166196	addons.xpi	DEBUG	New add-on onboarding@mozilla.org in app-system-defaults
+1540675166196	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1540675166196	addons.xpi	DEBUG	New add-on webcompat-reporter@mozilla.org in app-system-defaults
+1540675166196	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1540675166197	addons.xpi	DEBUG	scanForChanges changed: true, state: {}
+1540675166203	addons.xpi-utils	DEBUG	Error: Synchronously loading the add-ons database(resource://gre/modules/addons/XPIDatabase.jsm:1338:15) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1338:15
+checkForChanges@XPIProvider.jsm:2554:9
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1540675166203	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Pal\AppData\Local\Temp\rust_mozprofile.uNmwfOsztkKt\extensions.json
+1540675166229	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadFileInternal: blocklist is disabled
+1540675166251	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1540675166257	addons.xpi-utils	DEBUG	New add-on formautofill@mozilla.org installed in app-system-defaults
+1540675166406	addons.xpi-utils	DEBUG	New add-on onboarding@mozilla.org installed in app-system-defaults
+1540675166414	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1540675166431	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 27
+1540675166445	addons.xpi-utils	DEBUG	New add-on webcompat-reporter@mozilla.org installed in app-system-defaults
+1540675166450	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1540675166479	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1540675166483	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1540675166489	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1540675166489	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1540675166489	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{18c07233-fe97-4760-9dc6-7e8878706b38}","version":"2.0","type":"extension","defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1540670738652,"updateDate":1540670738652,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166490	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1540675166490	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1540675166497	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1540675166498	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1540675166498	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{dabdda06-c541-43eb-9682-7f23f9315f0b}","version":"1.0.5","type":"extension","defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1540670738478,"updateDate":1540670738478,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166498	addons.manager	DEBUG	Registering startup change 'installed' for formautofill@mozilla.org
+1540675166498	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1540675166498	addons.xpi	DEBUG	Calling bootstrap method install on formautofill@mozilla.org version 1.0
+1540675166498	addons.xpi-utils	DEBUG	Make addon app-system-defaults:formautofill@mozilla.org visible
+1540675166498	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{47bf809f-2c22-4f3c-8bb9-afa1e7827cef}","version":"1.0","type":"webextension","updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","creator":null,"developers":null,"translators":null,"contributors":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1540670737810,"updateDate":1540670737810,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":[],"origins":[]},"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166499	addons.manager	DEBUG	Registering startup change 'installed' for onboarding@mozilla.org
+1540675166499	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1540675166503	addons.xpi	DEBUG	Calling bootstrap method install on onboarding@mozilla.org version 1.0
+1540675166503	addons.xpi-utils	DEBUG	Make addon app-system-defaults:onboarding@mozilla.org visible
+1540675166503	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{8c73112f-b0c1-4b3b-9acd-05ab23437fbe}","version":"1.0","type":"extension","defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1540670736910,"updateDate":1540670736910,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166504	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1540675166504	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1540675166509	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 33.0.0
+1540675166509	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1540675166509	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{a4f99647-510b-44a0-889b-aa3ac5da909e}","version":"33.0.0","type":"extension","defaultLocale":{"name":"Firefox Screenshots","homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1540670736739,"updateDate":1540670736739,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166509	addons.manager	DEBUG	Registering startup change 'installed' for webcompat-reporter@mozilla.org
+1540675166509	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat-reporter@mozilla.org.xpi
+1540675166512	addons.xpi	DEBUG	Calling bootstrap method install on webcompat-reporter@mozilla.org version 1.0.0
+1540675166512	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat-reporter@mozilla.org visible
+1540675166512	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat-reporter@mozilla.org","syncGUID":"{17111dd9-f209-4072-a1bf-0d45a689e0f1}","version":"1.0.0","type":"extension","defaultLocale":{"name":"WebCompat Reporter","description":"Report site compatibility issues on webcompat.com."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1540670736527,"updateDate":1540670736527,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat-reporter@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166512	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1540675166512	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1540675166515	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 2.0.1
+1540675166515	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1540675166515	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{b464b480-0b2e-4b7d-b4a9-126087a06a3d}","version":"2.0.1","type":"extension","defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility."},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1540670736441,"updateDate":1540670736441,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"},{"id":"{aa3c5121-dab2-40e2-81ca-7ea25febc110}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166515	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{18c07233-fe97-4760-9dc6-7e8878706b38}","version":"2.0","type":"extension","defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1540670738652,"updateDate":1540670738652,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166515	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{dabdda06-c541-43eb-9682-7f23f9315f0b}","version":"1.0.5","type":"extension","defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1540670738478,"updateDate":1540670738478,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166515	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{47bf809f-2c22-4f3c-8bb9-afa1e7827cef}","version":"1.0","type":"webextension","updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","creator":null,"developers":null,"translators":null,"contributors":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1540670737810,"updateDate":1540670737810,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":[],"origins":[]},"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166515	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{8c73112f-b0c1-4b3b-9acd-05ab23437fbe}","version":"1.0","type":"extension","defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1540670736910,"updateDate":1540670736910,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166515	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{a4f99647-510b-44a0-889b-aa3ac5da909e}","version":"33.0.0","type":"extension","defaultLocale":{"name":"Firefox Screenshots","homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1540670736739,"updateDate":1540670736739,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166516	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat-reporter@mozilla.org","syncGUID":"{17111dd9-f209-4072-a1bf-0d45a689e0f1}","version":"1.0.0","type":"extension","defaultLocale":{"name":"WebCompat Reporter","description":"Report site compatibility issues on webcompat.com."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1540670736527,"updateDate":1540670736527,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat-reporter@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166516	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{b464b480-0b2e-4b7d-b4a9-126087a06a3d}","version":"2.0.1","type":"extension","defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility."},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1540670736441,"updateDate":1540670736441,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"63.0","maxVersion":"63.*"},{"id":"{aa3c5121-dab2-40e2-81ca-7ea25febc110}","minVersion":"63.0","maxVersion":"63.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{},"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"location":"app-system-defaults"}
+1540675166516	addons.xpi-utils	DEBUG	Updating add-on states
+1540675166517	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1540675166519	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1540675166520	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1540675166522	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1540675166527	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1540675166529	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1540675166531	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1540675166532	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1540675166534	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 33.0.0
+1540675166534	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat-reporter@mozilla.org.xpi
+1540675166536	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1540675166536	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1540675166539	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 2.0.1
+1540675166543	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1540675166543	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1540675166544	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1540675166544	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1540675166544	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1540675166545	addons.manager	DEBUG	Starting provider: GMPProvider
+1540675166548	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1540675166548	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1540675166548	addons.manager	DEBUG	Starting provider: PluginProvider
+1540675166548	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1540675166548	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1540675166551	addons.manager	DEBUG	Completed startup sequence
+1540675167442	addons.repository	DEBUG	No addons.json found.
+1540675168853	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1540675168853	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1540675168854	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1540675168854	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1540675168854	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1540675168854	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1540675168854	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1540675168854	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
+1540675172215	Marionette	INFO	Listening on port 54374
+1540675172228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540675172234	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+JavaScript error: http://911movies.co/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,utils,moxiejs,plupload&ver=4.9.6, line 2: Error: Syntax error, unrecognized expression: {"status_code":34,"status_message":"The resource you requested could not be found."}
+1540675621876	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1540675676743	addons.manager	DEBUG	Background update check beginning
+1540675676744	addons.xpi	INFO	Starting system add-on update check from https://aus5.mozilla.org/update/3/SystemAddons/63.0/20181018182531/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.17134.345%20(x64)/default/default/update.xml.
+1540675676745	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1540675676745	addons.xpi	INFO	Retaining existing updated system add-ons.
+1540675676746	addons.manager	DEBUG	Background update check complete
+JavaScript error: http://911movies.co/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,utils,moxiejs,plupload&ver=4.9.6, line 2: Error: Syntax error, unrecognized expression: {"status_code":34,"status_message":"The resource you requested could not be found."}
+JavaScript error: http://911movies.co/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,utils,moxiejs,plupload&ver=4.9.6, line 2: Error: Syntax error, unrecognized expression: {"status_code":34,"status_message":"The resource you requested could not be found."}
+JavaScript error: http://911movies.co/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,utils,moxiejs,plupload&ver=4.9.6, line 2: Error: Syntax error, unrecognized expression: {"status_code":34,"status_message":"The resource you requested could not be found."}
+1540676217145	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0.1
+1540676217145	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1540676217146	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 33.0.0
+1540676217148	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1540676217149	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1540676217186	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1540676217187	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[Parent 15572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c[Parent 15572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540676217238	addons.manager	DEBUG	shutdown
+1540676217239	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1540676217239	addons.xpi	DEBUG	shutdown
+1540676217239	addons.xpi-utils	DEBUG	shutdown
+1540676217239	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1540676217240	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1540676217240	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1540676217243	addons.manager	DEBUG	Async provider shutdown done
+1540676217601	Marionette	INFO	Stopped listening on port 54374
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/
+1539668921244	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/
+1539668921731	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1539668936588	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post-new.php?post_type=tvshows
+1539668945921	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post-new.php?post_type=tvshows
+1539669233812	addons.manager	DEBUG	Background update check beginning
+1539669233812	addons.xpi	INFO	Starting system add-on update check from https://aus5.mozilla.org/update/3/SystemAddons/62.0/20180830143136/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.17134.345%20(x64)/default/default/update.xml.
+1539669233813	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1539669233813	addons.xpi	INFO	Retaining existing updated system add-ons.
+1539669233814	addons.manager	DEBUG	Background update check complete
+1539674130646	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1539674130646	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1539674130647	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 33.0.0
+1539674130651	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1539674130652	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1539674130652	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1539674130652	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1539674130652	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.08.22.1219-93becf29
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 10252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10252, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 10252, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 10252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21780, Chrome_ChildT1539674131848	addons.manager	DEBUG	shutdown
+1539674131849	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1539674131849	addons.xpi	DEBUG	shutdown
+1539674131849	addons.xpi-utils	DEBUG	shutdown
+1539674131849	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1539674131849	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1539674131849	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1539674131855	addons.manager	DEBUG	Async provider shutdown done
+1539674132480	Marionette	INFO	Stopped listening on port 56272
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+r: Syntax error, unrecognized expression: {"status_code":25,"status_message":"Your request count (51) is over the allowed limit of 40."}
+JavaScript error: http://911movies.co/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,utils,moxiejs,plupload&ver=4.9.6, line 2: Error: Syntax error, unrecognized expression: {"status_code":25,"status_message":"Your request count (52) is over the allowed limit of 40."}
+JavaScript error: http://911movies.co/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,utils,moxiejs,plupload&ver=4.9.6, line 2: Error: Syntax error, unrecognized expression: {"status_code":25,"status_message":"Your request count (53) is over the allowed limit of 40."}
+1539667242150	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539667242412	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539667242648	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539667242887	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539667243126	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539667243364	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539667243410	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post-new.php?post_type=tvshows&wp-post-new-reload=true
+1539667246460	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post-new.php?post_type=tvshows&wp-post-new-reload=true
+1539667246461	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post-new.php?post_type=tvshows&wp-post-new-reload=true
+1539667246748	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539667247793	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=26185&action=edit
+1539667248685	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=26185&action=edit
+console.error: "Error while calling actor 'highlighter's method 'showBoxModel'" "can't access dead object"
+console.error: "_untrackMutations@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js:322:7\n_hide@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js:368:5\n_update@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js:350:7\nupdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:240:5\n_startRefreshLoop@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:276:5\nshow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:110:5\nshowBoxModel@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters.js:187:19\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+1539667464719	addons.manager	DEBUG	Background update check beginning
+1539667464719	addons.xpi	INFO	Starting system add-on update check from https://aus5.mozilla.org/update/3/SystemAddons/62.0/20180830143136/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.17134.345%20(x64)/default/default/update.xml.
+1539667464720	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1539667464720	addons.xpi	INFO	Retaining existing updated system add-ons.
+1539667464721	addons.manager	DEBUG	Background update check complete
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539668579474	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1539668579475	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1539668579475	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 33.0.0
+1539668579478	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1539668579478	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1539668579479	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1539668579479	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1539668579480	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.08.22.1219-93becf29
+[Parent 23208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 23208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13592, Chrome[Child 17192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17192, Chrome_ChildT[Parent 23208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539668579660	addons.manager	DEBUG	shutdown
+1539668579661	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1539668579661	addons.xpi	DEBUG	shutdown
+1539668579661	addons.xpi-utils	DEBUG	shutdown
+1539668579661	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1539668579661	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1539668579662	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1539668579665	addons.manager	DEBUG	Async provider shutdown done
+1539668579993	Marionette	INFO	Stopped listening on port 63663
+[GPU 10428, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+JavaScript warning: https://openload.co/assets/js/script.2823.js, line 1: unreachable code after return statement
+[Child 10108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538827460174	addons.manager	DEBUG	Background update check beginning
+1538827460175	addons.xpi	INFO	Starting system add-on update check from https://aus5.mozilla.org/update/3/SystemAddons/62.0/20180830143136/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.17134.285%20(x64)/default/default/update.xml.
+1538827460177	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1538827460177	addons.xpi	INFO	Retaining existing updated system add-ons.
+1538827460178	addons.manager	DEBUG	Background update check complete
+1538827890491	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1538829999397	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1538829999397	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1538829999398	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 33.0.0
+1538829999402	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1538829999403	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1538829999404	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1538829999404	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1538829999404	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.08.22.1219-93becf29
+[Parent 14648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_c[Child 19824, Chrome_ChildThhread] WARNING: piannpe errel_win.cc, linoe 3r: 10946
+: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19824, Chrome_ChildThr[Chiead] WARNlING: pipe error: 109: filed 17496, Chrome_ChildThread] WARNING: pipe erro r: 109: filz:/build/build/srce z/ip:/bc/cuilhrod/bmium/src/chrouildme//src/icompc/cmon/hromiuipc_channel_win.ccm/src/ch, line 346r
+ome/common/ipc_channel_win.cc, line 346
+[Child 17496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538829999951	addons.manager	DEBUG	shutdown
+1538829999951	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1538829999952	addons.xpi	DEBUG	shutdown
+1538829999952	addons.xpi-utils	DEBUG	shutdown
+1538829999952	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1538829999952	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1538829999952	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1538829999957	addons.manager	DEBUG	Async provider shutdown done
+1538830000641	Marionette	INFO	Stopped listening on port 56298
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ted
+1538826127932	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826128267	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826128543	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826128807	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826129087	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826129491	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826129727	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826130101	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826130328	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826130698	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826130933	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826131307	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826131555	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826131923	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826132175	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826132541	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826132771	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826133118	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826133162	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25600&action=edit
+1538826135532	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25600&action=edit
+1538826135536	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25600&action=edit
+1538826135683	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450975
+1538826135918	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25600&action=edit
+1538826136319	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25600&action=edit
+1538826140978	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25600&action=edit
+1538826142282	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25600&action=edit
+1538826142283	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25600&action=edit
+1538826142439	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1538826143775	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post-new.php?post_type=movies
+1538826144149	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post-new.php?post_type=movies
+1538826144518	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826147180	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826147430	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826147751	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826148004	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826148254	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826148529	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826148901	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826149130	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826149240	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1538826149508	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826149736	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826150097	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826150323	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826150711	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826150980	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826151370	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826151602	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826151970	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826152201	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826152577	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826152629	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post-new.php?post_type=movies&wp-post-new-reload=true
+1538826155567	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post-new.php?post_type=movies&wp-post-new-reload=true
+1538826155571	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post-new.php?post_type=movies&wp-post-new-reload=true
+1538826155723	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1538826155928	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25636&action=edit
+1538826156355	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25636&action=edit
+1538826160908	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25636&action=edit
+1538826162137	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25636&action=edit
+1538826162138	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25636&action=edit
+1538826162271	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450984
+1538826162706	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826163138	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826163569	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826166200	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826166434	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826166758	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826167018	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826167285	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826167562	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826167940	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826168174	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826168606	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826168857	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826169239	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826169468	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826169835	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826170071	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826170544	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826170773	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826171131	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826171357	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826171722	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826171771	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826175108	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826175110	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826175763	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1538826176105	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826177115	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826181704	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826182947	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826182948	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25606&action=edit
+1538826183258	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1538826183397	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826184038	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826184411	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826186989	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826187219	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826187537	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826187822	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826188135	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826188412	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826188833	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826189059	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826189417	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826189663	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826190157	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826190395	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826190790	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826191020	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826191386	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826191622	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826192057	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826192281	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826192638	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826192675	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826195326	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826195328	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826195456	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1538826195874	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826197045	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826202089	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826203443	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826203444	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25608&action=edit
+1538826203569	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1538826203930	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826204366	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826204734	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826207346	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826207584	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826207820	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826208052	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826208351	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826208597	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826208843	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826209115	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826209462	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826209697	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826210122	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826210350	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826210703	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826210933	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826211324	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826211564	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826211980	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826212224	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826212593	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826212819	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826213152	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826213194	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826215842	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826215843	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826216670	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1538826216982	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826222171	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826226709	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826227977	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826227977	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25596&action=edit
+1538826228340	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1538826228423	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826228908	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826229273	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826231773	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826232011	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826232312	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826232546	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826232787	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826233064	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826233407	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826233637	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826233985	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826234214	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826234550	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826234781	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826235135	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826235366	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826235710	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826235941	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826236288	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826236515	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826236879	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826236910	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826239275	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826239276	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826239405	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1538826239688	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826240305	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826244849	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826246025	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826246026	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25628&action=edit
+1538826246385	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451008
+1538826246476	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826247096	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826247486	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826249972	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826260333	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826260569	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826260885	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826261145	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826261396	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826261658	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826262027	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826262253	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826262589	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826262814	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826263190	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826263421	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826263752	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826264000	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826264394	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826264622	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826264960	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826265189	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826265507	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826265543	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826267964	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826267965	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826269294	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1538826269612	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826271225	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826275914	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826277093	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826277094	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25578&action=edit
+1538826277264	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1538826277544	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826278099	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826278511	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826281148	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826281393	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826281691	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826281922	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826282188	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826282445	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826282793	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826283026	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826283373	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826283603	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826283950	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826284176	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826284503	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826284730	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826285066	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826285342	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826285743	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826285978	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826286322	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826286360	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826289280	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826289281	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826289425	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451017
+1538826289656	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826290274	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826295184	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826296301	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826296302	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25610&action=edit
+1538826296442	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1538826296729	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826297904	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826298299	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826300909	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826301178	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826301498	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826301751	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826302032	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826302367	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826302763	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826303062	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826303433	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826303668	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826304058	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826304350	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826304705	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826304934	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826305267	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826305491	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826305829	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826306065	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826306384	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826306422	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826309028	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826309029	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826309260	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451023
+1538826309456	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826309976	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826314480	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826315502	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826315503	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25586&action=edit
+1538826315710	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451026
+1538826316113	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826316559	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826316900	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826319538	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826319767	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826320115	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826320379	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826320622	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826320884	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826321278	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826321511	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826321864	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826322094	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826322491	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826322719	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826323056	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826323279	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826323610	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826323839	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826324189	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826324412	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826324742	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826324781	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826327432	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826327433	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826327584	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451029
+1538826328033	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826328580	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826333139	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826334352	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826334352	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25589&action=edit
+1538826334474	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451032
+1538826334707	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826335350	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826335680	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826338246	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826338478	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826338776	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826339024	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826339272	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826339532	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826339906	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826340164	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826340515	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826340739	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826341085	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826341311	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826341702	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826341938	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826342301	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826342525	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826342873	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826343108	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826343448	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826343495	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826346099	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826346103	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826346254	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451035
+1538826346483	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826347017	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826351637	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826353091	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826353091	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25592&action=edit
+1538826353225	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451038
+1538826353547	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826353989	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826354393	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826357000	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826357230	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826357526	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826357776	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826358036	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826358306	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826358663	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826358919	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826359288	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826359518	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826359856	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826360083	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826360411	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826360637	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826360969	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826361196	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826361528	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826361756	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826362085	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826362126	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826364816	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826364818	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826364967	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451041
+1538826365291	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826365965	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826370374	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826371668	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826371669	Marionette	DEBUG	[6442450945] Received DOM event unload for http://911movies.co/wp-admin/post.php?post=25612&action=edit
+1538826371796	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451044
+1538826372024	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://911movies.co/wp-admin/post-new.php?post_type=movies
+1538826372385	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://911movies.co/wp-admin/post-new.php?post_type=movies
+1538826372754	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826375419	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826375677	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826375937	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826376207	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826376543	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826376796	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538826388229	addons.manager	DEBUG	Background update check beginning
+1538826388230	addons.xpi	INFO	Starting system add-on update check from https://aus5.mozilla.org/update/3/SystemAddons/62.0/20180830143136/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.17134.285%20(x64)/default/default/update.xml.
+1538826388230	addons.productaddons	INFO	Updates are disabled via media.gmp-manager.updateEnabled
+1538826388230	addons.xpi	INFO	Retaining existing updated system add-ons.
+1538826388231	addons.manager	DEBUG	Background update check complete
+1538830000803	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1538830000803	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1538830000803	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 33.0.0
+1538830000808	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1538830000809	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1538830000809	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1538830000810	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1538830000810	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.08.22.1219-93becf29
+[Child 18796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18796, Chrome_ChildThread] WAR[Parent 18268, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18268, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538830001874	addons.manager	DEBUG	shutdown
+1538830001874	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1538830001874	addons.xpi	DEBUG	shutdown
+1538830001875	addons.xpi-utils	DEBUG	shutdown
+1538830001875	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1538830001875	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1538830001875	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1538830001879	addons.manager	DEBUG	Async provider shutdown done
+1538830002498	Marionette	INFO	Stopped listening on port 53716
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
